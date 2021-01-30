@@ -70,3 +70,4 @@ try:
 except:
     print("没有这个文件")
 print('dos窗口操作')
+print('pycharm操作')
