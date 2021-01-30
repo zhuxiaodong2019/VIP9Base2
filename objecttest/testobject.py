@@ -5,7 +5,9 @@
 '''
 
 #1.定义一个类
-class Washer():
+#class Washer():
+#class Washer:
+class Washer(object):
     #属性
     # width = 200
     # height = 300

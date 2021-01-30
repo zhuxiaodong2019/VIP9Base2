@@ -20,17 +20,17 @@ class Prentice(School, Master):
     def __init__(self):
         self.kongfu = '[独创煎饼果子]'
         #定义私有属性
-        self.__monkey = 1000
-    #定义私有方法
+        self.__money = 1000
+    #定义私有方法--封装
     def __info_print(self):
         print(self.kongfu)
-        print(self.__monkey)
+        print(self.__money)
     #获取私有属性
     def get_money(self):
-        return self.__monkey
+        return self.__money
     #设置修改私有属性
-    def set_money(self):
-        self.__monkey = 500
+    def set_money(self,money):
+        self.__money = money
 
 
     def make_cake(self):
@@ -51,7 +51,7 @@ class TuSun(Prentice):
 
 xiaoming  = Prentice()
 # print(xiaoming.get_money())
-# xiaoming.set_money()
+xiaoming.set_money(1000)
 # print(xiaoming.get_money())
 # xiaoming.__info_() #对象不能访问私有属性和私有方法
 #
