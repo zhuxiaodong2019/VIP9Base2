@@ -69,3 +69,4 @@ try:
         #向上层抛出异常
 except:
     print("没有这个文件")
+print('dos窗口操作')
