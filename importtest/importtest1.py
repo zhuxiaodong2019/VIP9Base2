@@ -27,6 +27,13 @@
 # importtest.my_module1.info_print1()
 # info_print1()
 # info_print2()
-from importtest import *
+# from importtest import *
+import os,sys,time
+
+import my_module1
+import my_module2
+
 my_module1.info_print1()
 my_module2.info_print2()
+def info():
+    print(1)
